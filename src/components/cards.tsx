@@ -41,7 +41,6 @@ function Cards({setCurrent,setBest,current,best}:{setCurrent:(v:any)=> void,setB
   const start = () => {
     const chars = shuffle(characters)
     setData(chars);
-    setCurrent(current + 1)
   };
  
   return (
